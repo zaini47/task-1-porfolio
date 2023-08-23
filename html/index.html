@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="m-0 p-0">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="../images/icons/icons8-favicon-16.png"
+      type="image/x-icon"
+    />
     <title>Zfolio</title>
     <link rel="stylesheet" href="../css/index.css" />
     <link
@@ -20,12 +25,12 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
+  <body class="p-0 m-0">
     <!-- navbar  -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
       <div class="container-fluid">
-        <div class="container d-flex justify-content-between">
+        <div class="container d-flex justify-content-between align-item-center">
           <a class="navbar-brand fs-3 text-light" href="#">Zfolio</a>
           <button
             class="navbar-toggler"
@@ -78,7 +83,7 @@
     <!-- hero img  -->
     <img
       src="../images/pictures/Snapchat-249092867 (1).jpg"
-      class="img-fluid"
+      class="img-fluid w-100"
       alt="..."
     />
 
@@ -94,7 +99,7 @@
         <span style="background-color: green; height: 40px; width: 20px"></span>
         <h3 class="align-item-center p-3">WHO AM I?</h3>
         <div class="row g-0">
-          <div class="col-md-4">
+          <div class="col-sm-12 col-md-4">
             <img
               src="../images/pictures/IMG_20220503_210827_336.jpg"
               class="img-fluid rounded-start p-3"
@@ -102,12 +107,12 @@
               alt="..."
             />
           </div>
-          <div class="col-md-8">
+          <div class="col-sm-12 col-md-8">
             <div class="card-body">
-              <h5 class="card-title fs-1" data-aos="fade-left">
+              <h5 class="card-title fs-1" data-aos="fade-up">
                 Muhammad Zain Ali
               </h5>
-              <p class="card-text" data-aos="fade-left">
+              <p class="card-text" data-aos="fade-up">
                 I am student of Adp-Cs and just cleared my 3rd semester from
                 NCBA&E. I have done courses of Ethical hacking from KFUEIT and
                 Front end Development from ICR. I have have some freelancing
@@ -210,7 +215,7 @@
             <h3 class="align-item-center p-3">MY WORK</h3>
 
             <div class="col-sm-12 col-md-4 shadow-sm">
-              <div class="card" data-aos="zoom-out-right">
+              <div class="card" data-aos="flip-up">
                 <img
                   src="../images/pictures/project.jpg"
                   class="card-img-top"
@@ -250,7 +255,7 @@
             </div>
 
             <div class="col-sm-12 col-md-4 shadow-sm">
-              <div class="card" data-aos="zoom-in-left">
+              <div class="card" data-aos="flip-up">
                 <img
                   src="../images/pictures/temp 3.jpg"
                   class="card-img-top"
@@ -273,7 +278,7 @@
 
           <div class="row bg-transparent">
             <div class="col-sm-12 col-md-4 shadow-sm">
-              <div class="card" data-aos="zoom-out-right">
+              <div class="card" data-aos="flip-up">
                 <img
                   src="../images/pictures/temp4.jpg"
                   class="card-img-top"
@@ -313,7 +318,7 @@
             </div>
 
             <div class="col-sm-12 col-md-4 shadow-sm">
-              <div class="card" data-aos="zoom-in-left">
+              <div class="card" data-aos="flip-up">
                 <img
                   src="../images/pictures/temp-6.jpg"
                   class="card-img-top"
@@ -339,33 +344,42 @@
     <footer class="pt-5">
       <div class="conatiner-fluid bg-dark h-">
         <div class="container">
-          <div class="row d-flex justify-content-between">
+          <div class="row">
             <div
               class="col-sm-12 col-md-4 bg-transparent p-5 border-0"
               id="scrollspycontact"
             >
               <h3 class="text-white">Contact</h3>
-              <a href="https://www.facebook.com/rajput.zainalikhan/" class="text-decoration-none p-3"
+              <a
+                href="https://www.facebook.com/rajput.zainalikhan/"
+                class="text-decoration-none p-3"
                 ><i class="fa-brands fa-facebook"> f a c e b o o k</i></a
               >
-              <a href="https://www.linkedin.com/in/muhammad-zain-ali-91a287253/" class="text-decoration-none p-3"
+              <a
+                href="https://www.linkedin.com/in/muhammad-zain-ali-91a287253/"
+                class="text-decoration-none p-3"
                 ><i class="fa-brands fa-linkedin"> l i n k e d I n</i></a
               >
-              <a href="https://www.instagram.com/rana_zayn_07/" class="text-decoration-none p-3"
+              <a
+                href="https://www.instagram.com/rana_zayn_07/"
+                class="text-decoration-none p-3"
                 ><i class="fa-brands fa-instagram"> I n s t a g r a m</i></a
               >
-              <a href="https://github.com/zaini47" class="text-decoration-none p-3"
+              <a
+                href="https://github.com/zaini47"
+                class="text-decoration-none p-3"
                 ><i class="fa-brands fa-github"> G i t h u b</i></a
               >
             </div>
             <div class="col-sm-12 col-md-6 p-3">
+              <h2 class="text-white">Leave Me a Note</h2>
               <label
                 for="exampleFormControlInput1"
                 class="form-label text-white"
                 >Name</label
               >
               <input
-                type="email"
+                type="name"
                 class="form-control"
                 id="exampleFormControlInput1"
               />
@@ -385,12 +399,12 @@
               <label
                 for="exampleFormControlTextarea1"
                 class="form-label text-white"
-                >Example textarea</label
+                >Write a message</label
               >
               <textarea
                 class="form-control"
                 id="exampleFormControlTextarea1"
-                rows="2"
+                rows="1"
               ></textarea>
             </div>
           </div>
