@@ -1,0 +1,60 @@
+.vertical-partition-line {
+    
+    display: flex;
+    width: 2px;
+    height: 1300px; /* Adjust height as needed */
+    background-color: #333; /* You can choose the color you prefer */
+    margin: 0 5px; /* Adjust margin as needed */
+  }
+
+  .service-box {
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .service-box:hover .ico-circle {
+    transition: all 500ms ease;
+    color: #fff;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #cde1f8;
+    border-radius: 50px;
+  }
+  
+  .service-box .service-ico {
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+  }
+  
+  .service-box .ico-circle {
+    transition: all 500ms ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .service-box .ico-circle i {
+    line-height: 0;
+    font-size: 40px;
+  }
+  
+  .service-box .s-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.4rem 0;
+  }
+  
+  .service-box .s-description {
+    color: #4e4e4e;
+  }
+
+
+  .title-a {
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
